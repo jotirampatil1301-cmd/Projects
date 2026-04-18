@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shubham | Portfolio</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+body{
+    background-color:#0f172a;
+    color:#e2e8f0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.section-bg{
+    background-color:#1e293b;
+}
+
+.navbar{
+    background-color:#1e293b;
+}
+
+.navbar a{
+    color:#e2e8f0 !important;
+}
+
+.navbar a:hover{
+    color:#38bdf8 !important;
+}
+
+.hero-text span{
+    color:#38bdf8;
+    font-weight:bold;
+}
+
+.btn-custom{
+    background:#38bdf8;
+    color:#0f172a;
+}
+
+.btn-custom:hover{
+    background:#f97316;
+    color:white;
+}
+
+.card{
+    background:#1e293b;
+    border:none;
+    color:#e2e8f0;
+}
+
+.progress{
+    height:8px;
+    background:#334155;
+}
+
+.progress-bar{
+    background:#38bdf8;
+}
+
+.footer{
+    background:#1e293b;
+    padding:15px;
+    text-align:center;
+}
+
+.social-icons a{
+    color:#38bdf8;
+    margin:0 10px;
+    font-size:20px;
+}
+
+.social-icons a:hover{
+    color:#f97316;
+}
+.project-card{
+    background:#1e293b;
+    border:1px solid #334155;
+    border-radius:15px;
+    width:75%;
+    max-width:650px;
+    overflow:hidden;
+    color:#e2e8f0;
+    transition:0.4s;
+}
+
+.project-card:hover{
+    transform:translateY(-6px);
+    border-color:#38bdf8;
+}
+
+.project-img{
+    height:300px;
+    object-fit:cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    filter:invert(1);
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top">
+<div class="container">
+<a class="navbar-brand text-info fw-bold" href="#">Shubham</a>
+<button class="navbar-toggler bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navmenu">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="py-5 mt-5">
+<div class="container">
+<div class="row align-items-center">
+<div class="col-md-6">
+<h1 class="hero-text">Hi, I'm <span id="typing"></span></h1>
+<p class="mt-3">
+Final-year B.Tech student with a strong foundation in programming, cloud computing, and DevOps practices. Proficient in Python and SQL, with practical experience using AWS Cloud Services, including EC2, S3, IAM. Recognized as a finalist in the Smart India Hackathon for innovative problem-solving and team collaboration under time-bound challenges. Demonstrates excellent teamwork, a problem-solving attitude, and a passion for learning modern cloud-native technologies to deliver efficient, scalable, and secure solutions
+</p>
+</div>
+<div class="col-md-6 text-center">
+<img src="./DSC_0469.JPG" class="img-fluid rounded shadow">
+</div>
+</div>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-5 section-bg">
+<div class="container">
+<h2 class="text-info mb-4">About Me</h2>
+<div class="row">
+
+<div class="col-md-6">
+<div class="card p-3 mb-3">
+<h5><i class="fa-solid fa-graduation-cap text-info"></i> Education</h5>
+<p>B.Tech in Electronics and telecommunication Engineering From Walchand Institute of technology (Final year)</p>
+<p>HSC  Board with 72.83% in 2022</p>
+<p>SSC Board with 90.5% in 2020</p>
+</div>
+
+<div class="card p-3">
+<h5><i class="fa-solid fa-trophy text-warning"></i> Achievements</h5>
+<ul>
+<li>Finalist in the Smart India Hackathon Hradware Edition(PIET Panipat, Haryana)</li>
+</ul>
+</div>
+</div>
+
+
+</div>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="py-5">
+<div class="container">
+<h2 class="text-center text-info mb-4">Skills</h2>
+
+<div class="mb-3">
+<label>Python <i class="fa-brands fa-python text-warning"></i></label>
+<div class="progress"><div class="progress-bar" style="width:85%"></div></div>
+</div>
+
+<div class="mb-3">
+<label>HTML <i class="fa-brands fa-html5 text-danger"></i></label>
+<div class="progress"><div class="progress-bar" style="width:90%"></div></div>
+</div>
+
+<div class="mb-3">
+<label>CSS <i class="fa-brands fa-css3-alt text-primary"></i></label>
+<div class="progress"><div class="progress-bar" style="width:85%"></div></div>
+</div>
+
+<div class="mb-3">
+<label>JavaScript <i class="fa-brands fa-js text-warning"></i></label>
+<div class="progress"><div class="progress-bar" style="width:75%"></div></div>
+</div>
+
+<div class="mb-3">
+<label>AWS <i class="fa-brands fa-aws text-warning"></i></label>
+<div class="progress"><div class="progress-bar" style="width:70%"></div></div>
+</div>
+
+</div>
+</section>
+
+
+       <!-- PROJECTS -->
+<section id="projects" class="py-5 section-bg">
+<div class="container">
+<h2 class="text-center text-info mb-5">Projects</h2>
+
+<div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+
+
+    <div class="carousel-inner">
+
+        <!-- PROJECT 1 -->
+        <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+                <div class="card project-card">
+
+                    <img src="./inventorymng.png" class="card-img-top project-img" alt="Inventory Project">
+
+                    <div class="card-body text-center">
+                        <h4 class="mb-3">Stock master</h4>
+                        <p>
+                            Full-stack Django application with authentication,
+                            CRUD operations and database integration.
+                        </p>
+
+                        <div class="mt-3">
+                            <span class="badge bg-info text-dark">Django</span>
+                            <span class="badge bg-info text-dark">Bootstrap</span>
+                            <span class="badge bg-info text-dark">SQLite</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+                <div class="card project-card">
+
+                    <img src="./chatbothome.png" class="card-img-top project-img" alt="Chatbot Project">
+
+                    <div class="card-body text-center">
+                        <h4 class="mb-3">Anti-Depression Chatbot</h4>
+                        <p>
+                            NLP-based chatbot using TFVectorizer and Logistic Regression
+                            deployed with Django.
+                        </p>
+
+                        <div class="mt-3">
+                            <span class="badge bg-info text-dark">Python</span>
+                            <span class="badge bg-info text-dark">Machine Learning</span>
+                            <span class="badge bg-info text-dark">Django</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-5">
+<div class="container">
+<h2 class="text-info mb-4">Contact Me</h2>
+<div class="row">
+
+<div class="col-md-6">
+<form>
+<input type="text" class="form-control mb-3" placeholder="Your Name">
+<input type="email" class="form-control mb-3" placeholder="Your Email">
+<textarea class="form-control mb-3" rows="4" placeholder="Your Message"></textarea>
+<button class="btn btn-custom w-100">Send Message</button>
+</form>
+</div>
+
+<div class="col-md-6 text-center" >
+<p><i class="fa-solid fa-phone text-info"></i> +91 8855839833</p>
+<p><i class="fa-solid fa-envelope text-info"></i> shubhaminamdar93@gmail.com</p>
+<p><i class="fa-solid fa-location-dot text-info"></i> Pune, India</p>
+
+<div class="social-icons mt-3">
+<a href="www.linkedin.com/in/shubham-inamdar-98b67a259/"><i class="fa-brands fa-linkedin"></i></a>
+<a href="#"><i class="fa-brands fa-instagram"></i></a>
+<a href="https://github.com/Shubh99991"><i class="fa-brands fa-github"></i></a>
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<div class="footer">
+<p>© 2026 Shubham Inamdar | All Rights Reserved</p>
+</div>
+
+<!-- Typing Animation -->
+<script>
+const text = "Shubham Inamdar";
+let i = 0;
+function typing(){
+    if(i < text.length){
+        document.getElementById("typing").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typing,100);
+    }
+}
+typing();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
